@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Velozly - SaaS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#">
+        <!-- Update the image source to your actual logo file path -->
+        <img src="images/chrome-capture-2025-0-24.png" alt="Velozly Logo" />
+      </a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact" class="btn-primary">Get Started</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section (Image Removed) -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Accelerate Your Business Growth with Velozly</h1>
+      <p>Velozly helps you optimize every touchpoint of your customer journey, leveraging data-driven insights to accelerate results.</p>
+      <a href="#contact" class="btn-primary">Start Free Trial</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>1. Analytics Dashboard</h3>
+          <p>Gain full visibility with real-time analytics to make data-driven decisions.</p>
+        </div>
+        <div class="feature-card">
+          <h3>2. Automation Tools</h3>
+          <p>Automate repetitive tasks so you can focus on scaling your business.</p>
+        </div>
+        <div class="feature-card">
+          <h3>3. Collaboration</h3>
+          <p>Streamline teamwork with shared dashboards and reporting.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <h2>Ready to Scale Faster?</h2>
+    <p>Join hundreds of businesses using Velozly to revolutionize their customer journey.</p>
+    <a href="#contact" class="btn-secondary">Request a Demo</a>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-cards">
+        <div class="testimonial-card">
+          <p>“Velozly has been a game-changer for our marketing campaigns. We’ve seen a 30% increase in conversion rates.”</p>
+          <h4>— Sarah Johnson, CEO of TechStart</h4>
+        </div>
+        <div class="testimonial-card">
+          <p>“We love how easy it is to integrate Velozly with our existing tools. Their support is top-notch!”</p>
+          <h4>— Michael Green, COO of InnovateX</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <h2>Simple Pricing</h2>
+      <div class="pricing-cards">
+        <div class="pricing-card">
+          <h3>Starter</h3>
+          <p class="price">$29 <span>/ month</span></p>
+          <ul>
+            <li>Basic Analytics</li>
+            <li>100 Automations</li>
+            <li>Email Support</li>
+          </ul>
+          <a href="#contact" class="btn-primary">Choose Plan</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Pro</h3>
+          <p class="price">$79 <span>/ month</span></p>
+          <ul>
+            <li>Advanced Analytics</li>
+            <li>500 Automations</li>
+            <li>24/7 Chat Support</li>
+          </ul>
+          <a href="#contact" class="btn-primary">Choose Plan</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Enterprise</h3>
+          <p class="price">Custom</p>
+          <ul>
+            <li>Unlimited Analytics</li>
+            <li>Unlimited Automations</li>
+            <li>Dedicated Account Manager</li>
+          </ul>
+          <a href="#contact" class="btn-primary">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer Section -->
+  <footer id="contact" class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <h2>Velozly</h2>
+        <p>Empowering businesses to grow faster with data-driven SaaS solutions.</p>
+      </div>
+      <div class="footer-right">
+        <h3>Contact Us</h3>
+        <form action="#" method="POST">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Velozly. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Auto-update year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
